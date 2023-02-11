@@ -1,0 +1,358 @@
+/*common start*/
+body{
+	font-family: 'Titillium Web', sans-serif;
+
+
+}
+/*header start*/
+.header_section{
+	background: #87509c;
+	padding-top: 60px;
+}
+
+.menu{
+	margin-top: 10px;
+}
+.menu ul li{
+
+}
+.menu ul li a{
+	margin-left: 45px;
+  color: #ffffff;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding: 10px 15px;
+	border-radius: 4px;
+}
+a,a:hover{
+	text-decoration: none;
+}
+.menu ul li a:hover{
+	background-color: #643a79;
+}
+ .active{
+	background-color: #643a79;
+
+}
+/*slider start*/
+.slider{
+    margin-bottom: -25px;
+    background-color:#87509c ;
+	height: 100vh;
+}
+h1{
+	font-size: 42px;
+	color:#ffffff ;
+	font-weight: 700;
+}
+.btn_primary{
+	margin-top: 60px;
+	font-size: 18px;
+	font-weight: 600;
+	width:295px;
+	color: #ffffff;
+	text-transform: uppercase;
+	padding: 20px 10px;
+	background: #eb7d4b;
+	border-radius:4px ;
+	border: none;
+	border-bottom: 4px solid #c86a40;
+	
+}
+.btn_primary:hover{
+	color: #3c5499;
+    background:#17c2a4 ;
+    border-bottom: 4px solid #14a58c;
+}
+/*slider end*/
+/*header end*/
+
+
+/*service section start*/
+.service{
+	background:#17c2a4 ;
+	padding: 120px 0px;
+	margin-bottom: 20px;
+}
+h2{
+	font-size: 40px;
+	font-weight: 700;
+	color: #3c4761;
+	
+}
+
+.section-title h2 {
+	margin-bottom: 22px;
+	position: relative;
+}
+
+.section-title h2:before {
+	position: absolute;
+	bottom: -7px ;
+	left: 45% ;
+	background: #878787;
+	content:--;
+	height:4px ;
+	width: 90px;
+}
+.section-title h4{
+	margin-top: 25px;
+}
+
+
+.white{
+	color: #ffffff;
+}
+
+/*row 2*/
+   .single_service{
+	  margin-top: 90px;
+}
+
+    .single_service h3{
+         margin-top: 50px;
+          margin-bottom: 20px;
+          text-transform: uppercase;
+}
+/*service end*/
+
+/*team service*/
+h3{
+	font-size: 24px;
+	font-weight: 700;
+	 color: #3c4761;
+}
+p{
+	font-size: 16px;
+	font-weight: 300;
+	color:#878787 ;
+	padding: 20px 10px;
+}
+
+h4{
+	font-size: 18px;
+	font-weight: 400;
+	color:#393939 ;
+	line-height: 26px;
+}
+
+p .italic :{
+		font-size: 21px;
+	    color:#ffffff ;
+	   font-weight: 400 italic;
+	   line-height: 24px;
+}
+/*service section end*/
+/*team section start*/
+.team{
+	margin-top: -20px;
+	background: #e7f1f8;
+	padding: 120px 0px;
+	color: #878787;
+}
+
+
+.team .section-title h2:before {
+	position: absolute;
+	bottom: -7px ;
+	left: 45% ;
+	background: #c8d9es;
+	content:--;
+	height:4px ;
+	width: 90px;
+}
+.single_team{
+	margin-top: 80px;
+}
+.single_team img{ 
+
+     border-radius: 50%;
+}
+.single_team h3{
+	margin-top: 40px;
+}
+.single_team span{
+	font-size: 16px;
+	font-size: 400!important;
+	color: #30bae7!important;
+	margin-bottom: 28px;
+}
+
+.social-icon a i{
+    height: 30px;
+    width: 30px;
+    color: ffffff;
+    background: #ccc;
+    border-radius: 50%;
+    line-height: 30px;
+    margin-right: 10px;
+
+}
+.social-icon a i:hover{
+	background: #3c5499;
+}
+/*skill section start*/
+.skills{
+	background:#ffffff ;
+	padding: 120px 0px;
+	margin-bottom: 20px;
+}
+.skills row{
+	margin-top: 30px;
+}
+.single-skill img{
+  margin:0 auto;
+  padding: 55px;
+
+}
+.single-skill {
+position: relative;
+}
+
+.single-skill span{
+	position: absolute;
+	font-weight: 400;
+	font-size:50px ;
+    top:35%;
+	left: 35%;
+	trasform: translate(-50%, -50%)!important;
+	
+}
+.text-uppercase{
+	    margin: 5px 50px;
+}
+/*skill section end*/
+
+/*portfolio section start*/
+.portfolio{
+	background:#ffdd99 ;
+	padding: 120px 0px;
+	margin-bottom: 20px;
+}
+.single-portfolio{
+	margin-bottom: 50px;
+}
+.button-group button.active{
+	background: #ffffff;
+
+
+}
+.button-middle{
+	margin: 0 auto;
+	display: block;
+	margin-bottom: 40px;
+}
+.button-group {
+	margin-top: 20px;
+    border-radius: 50%;
+	border:none;
+}
+.btn_custom {
+	margin-top: 60px;
+	font-size: 18px;
+	font-weight: 600;
+	width:295px;
+	color:#ffffff;
+	text-transform: uppercase;
+	padding: 20px 10px;
+	background:  #17c2a4;
+	border-radius:4px ;
+	border: none;
+	
+	 margin-left: 450px;
+
+}
+/*about us start*/
+.about-us{
+	margin-top: -20px;
+	background:#d74680 ;
+	padding: 120px 0;
+	margin-bottom: 20px
+	color:#ffffff;
+}
+ .single-about h3{
+	color:#ffffff;
+}
+.single-about p{
+	color:#ffffff;
+}
+.single-about span{
+	color: #d74680 ;
+}
+.about-us h4{
+	margin-bottom: 30px;
+	
+}
+.single-about{
+	margin-bottom: 120px;
+	
+}
+
+.single-about img{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	float:left ;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}
+/*skill section end*/
+/*contact us start*/
+.contact-us{
+	margin-top: -20px;
+	background:#d74680 ;
+	padding: 120px 0;
+	margin-bottom: 20px
+}
+
+.contact-us{
+	background: #ccc;
+	padding: 120 0;
+
+}
+.contact-us input{
+	margin-top: 20px;
+	width: 47%;
+	float: left;
+}
+.contact-us input[type="text"]{
+	margin-right: 38px;
+}
+.form{
+margin-left: 150px;
+}
+.i-name{
+	margin-bottom: 50px;
+	text-align: center;
+}
+.i-mail{
+	text-align: center;
+}
+
+.contact-us textarea{
+	width: 100%;
+	height: 200;
+}
+.btn_send {
+	margin-top: 60px;
+	font-size: 18px;
+	font-weight: 600;
+	width:295px;
+	color: #ffffff;
+	text-transform: uppercase;
+	padding: 20px 10px;
+	background:  #17c2a4;
+	border-radius:4px ;
+	border: none;
+
+	 margin-left: 40px;
+
+}
+.btn_send:hover{
+	color: #17c2a4;
+    background:#17c2a4 ;
+    border-bottom: 4px solid #14a58c;
+
+
+/*contact us end*/
